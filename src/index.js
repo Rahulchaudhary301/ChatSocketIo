@@ -1,6 +1,6 @@
 import {Server} from 'socket.io'
 
-const io = new Server(5000,{
+const io = new Server(9000,{
     cors:{
         origin:"https://chatappss.netlify.app"
     }
